@@ -1,11 +1,11 @@
 package com.algotrader.mapper;
 
+import org.springframework.stereotype.Service;
+
 import com.algotrader.dto.ClientOrder;
 import com.binance.api.client.domain.account.Order;
 
-import org.springframework.stereotype.Component;
-
-@Component
+@Service
 public class OrdersMapper {
 
     public ClientOrder toRecord(Order order) {

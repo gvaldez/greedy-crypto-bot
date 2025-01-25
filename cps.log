@@ -1,0 +1,199 @@
+2025-01-24 17:28:22.780  INFO 33956 --- [restartedMain] com.algotrader.App                       : Starting App using Java 17.0.4.1 on LAPTOP-43GSJ023 with PID 33956 (C:\dev\repo\greedy-crypto-bot\target\classes started by gvald in C:\dev\repo\greedy-crypto-bot)
+2025-01-24 17:28:22.781  INFO 33956 --- [restartedMain] com.algotrader.App                       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24 17:28:22.829  INFO 33956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24 17:28:22.829  INFO 33956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24 17:28:23.714  INFO 33956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-24 17:28:23.723  INFO 33956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24 17:28:23.724  INFO 33956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2025-01-24 17:28:23.789  INFO 33956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24 17:28:23.790  INFO 33956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 959 ms
+2025-01-24 17:28:23.858  INFO 33956 --- [restartedMain] c.algotrader.service.ClientOrderService  : >>> *** GRID BOT 2023 *** 
+ Current settings : currentTradePair = BTCUSDT; 
+enterPriceParam + 0.997; 
+exitPriceParam = 1.003; 
+exit level percentage = 0.7%;
+2025-01-24 17:28:25.012  INFO 33956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24 17:28:25.186  INFO 33956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 17:28:25.388  INFO 33956 --- [restartedMain] com.algotrader.App                       : Started App in 2.904 seconds (JVM running for 3.274)
+2025-01-24 17:28:30.184  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:28:35.193  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:28:40.184  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:28:45.187  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:28:50.178  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:28:55.369  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> No current order available.
+2025-01-24 17:28:55.554  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for BTC = 6.474E-5
+2025-01-24 17:28:55.739  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for USDT = 0.0
+2025-01-24 17:28:56.100  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:00.722  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:05.726  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:10.723  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:15.726  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:20.730  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:25.729  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:30.722  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:35.731  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:40.724  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:45.732  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:50.724  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:29:55.733  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:00.719  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:05.715  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:10.724  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:15.733  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:20.721  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:25.718  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:30.718  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:35.720  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:40.734  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:45.728  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:50.723  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:30:55.718  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:00.714  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:05.731  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:10.728  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:15.730  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:20.714  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:25.726  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:30.731  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:35.721  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:40.725  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:45.723  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:50.719  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:31:55.725  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:32:00.721  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:32:05.728  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:32:10.204  INFO 33956 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-01-24 17:32:10.214  INFO 33956 --- [Thread-4] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-01-24 17:32:10.254 ERROR 33956 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+com.binance.api.client.exception.BinanceApiException: java.io.InterruptedIOException
+	at com.binance.api.client.impl.BinanceApiServiceGenerator.executeSync(BinanceApiServiceGenerator.java:79) ~[binance-api-client-1.0.1.jar:na]
+	at com.binance.api.client.impl.BinanceApiRestClientImpl.getOpenOrders(BinanceApiRestClientImpl.java:155) ~[binance-api-client-1.0.1.jar:na]
+	at com.algotrader.service.ClientOrderService.getOpenOrders(ClientOrderService.java:127) ~[classes/:na]
+	at com.algotrader.service.TradingStrategy.getOpenOrders(TradingStrategy.java:174) ~[classes/:na]
+	at com.algotrader.service.TradingStrategy.execute(TradingStrategy.java:84) ~[classes/:na]
+	at com.algotrader.service.ScheduledService.scheduled(ScheduledService.java:21) ~[classes/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor20.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.30.jar:5.3.30]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: java.io.InterruptedIOException: null
+	at okhttp3.internal.http2.Http2Stream.waitForIo$okhttp(Http2Stream.kt:660) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.kt:140) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.kt:96) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.kt:106) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.kt:79) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.kt:34) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.kt:95) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.kt:83) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.kt:76) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at com.binance.api.client.security.AuthenticationInterceptor.intercept(AuthenticationInterceptor.java:56) ~[binance-api-client-1.0.1.jar:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.kt:109) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(RealCall.kt:201) ~[okhttp-4.9.3.jar:na]
+	at okhttp3.internal.connection.RealCall.execute(RealCall.kt:154) ~[okhttp-4.9.3.jar:na]
+	at retrofit2.OkHttpCall.execute(OkHttpCall.java:180) ~[retrofit-2.4.0.jar:na]
+	at com.binance.api.client.impl.BinanceApiServiceGenerator.executeSync(BinanceApiServiceGenerator.java:71) ~[binance-api-client-1.0.1.jar:na]
+	... 17 common frames omitted
+
+2025-01-24 17:32:10.268  INFO 33956 --- [restartedMain] com.algotrader.App                       : Starting App using Java 17.0.4.1 on LAPTOP-43GSJ023 with PID 33956 (C:\dev\repo\greedy-crypto-bot\target\classes started by gvald in C:\dev\repo\greedy-crypto-bot)
+2025-01-24 17:32:10.268  INFO 33956 --- [restartedMain] com.algotrader.App                       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24 17:32:10.467  INFO 33956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-24 17:32:10.469  INFO 33956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24 17:32:10.469  INFO 33956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2025-01-24 17:32:10.484  INFO 33956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24 17:32:10.484  INFO 33956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 213 ms
+2025-01-24 17:32:10.501  INFO 33956 --- [restartedMain] c.algotrader.service.ClientOrderService  : >>> *** GRID BOT 2023 *** 
+ Current settings : currentTradePair = BTCUSDT; 
+enterPriceParam + 0.997; 
+exitPriceParam = 1.003; 
+exit level percentage = 0.7%;
+2025-01-24 17:32:10.961  INFO 33956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24 17:32:10.986  INFO 33956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 17:32:11.018  INFO 33956 --- [restartedMain] com.algotrader.App                       : Started App in 0.767 seconds (JVM running for 228.905)
+2025-01-24 17:32:11.020  INFO 33956 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-01-24 17:32:15.179  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:32:20.176  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:32:25.189  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:32:30.188  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:32:35.179  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:32:40.363  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> No current order available.
+2025-01-24 17:32:40.545  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for BTC = 6.474E-5
+2025-01-24 17:32:40.726  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for USDT = 0.0
+2025-01-24 17:32:41.086  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:32:45.730  INFO 33956 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 17:38:22.958  INFO 29104 --- [restartedMain] com.algotrader.App                       : Starting App using Java 17.0.4.1 on LAPTOP-43GSJ023 with PID 29104 (C:\dev\repo\greedy-crypto-bot\target\classes started by gvald in C:\dev\repo\greedy-crypto-bot)
+2025-01-24 17:38:22.959  INFO 29104 --- [restartedMain] com.algotrader.App                       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24 17:38:23.013  INFO 29104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24 17:38:23.013  INFO 29104 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24 17:38:24.178  INFO 29104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-24 17:38:24.191  INFO 29104 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24 17:38:24.191  INFO 29104 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2025-01-24 17:38:24.264  INFO 29104 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24 17:38:24.264  INFO 29104 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2025-01-24 17:38:24.344  INFO 29104 --- [restartedMain] c.algotrader.service.ClientOrderService  : >>> *** GRID BOT 2023 *** 
+ Current settings : currentTradePair = BTCUSDT; 
+enterPriceParam + 0.997; 
+exitPriceParam = 1.003; 
+exit level percentage = 0.7%;
+2025-01-24 17:38:25.626  INFO 29104 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24 17:38:25.806  INFO 29104 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 17:38:26.051  INFO 29104 --- [restartedMain] com.algotrader.App                       : Started App in 3.471 seconds (JVM running for 4.209)
+2025-01-24 17:38:50.143  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:38:57.342  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:39:05.804  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:39:11.289  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:39:23.641  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 17:39:51.984  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> No current order available.
+2025-01-24 17:39:54.941  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for BTC = 6.474E-5
+2025-01-24 17:39:55.936  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Asset Balance for USDT = 0.0
+2025-01-24 17:40:01.258  INFO 29104 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Unexpected case for order.null
+2025-01-24 18:52:55.244  INFO 6544 --- [restartedMain] com.algotrader.App                       : Starting App using Java 17.0.4.1 on LAPTOP-43GSJ023 with PID 6544 (C:\dev\repo\greedy-crypto-bot\target\classes started by gvald in C:\dev\repo\greedy-crypto-bot)
+2025-01-24 18:52:55.246  INFO 6544 --- [restartedMain] com.algotrader.App                       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24 18:52:55.292  INFO 6544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24 18:52:55.292  INFO 6544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24 18:52:56.458  INFO 6544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-24 18:52:56.470  INFO 6544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24 18:52:56.470  INFO 6544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2025-01-24 18:52:56.536  INFO 6544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24 18:52:56.536  INFO 6544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1243 ms
+2025-01-24 18:52:56.616  INFO 6544 --- [restartedMain] c.algotrader.service.ClientOrderService  : >>> *** GRID BOT 2023 *** 
+ Current settings : currentTradePair = BTCUSDT; 
+enterPriceParam + 0.997; 
+exitPriceParam = 1.003; 
+exit level percentage = 0.7%;
+2025-01-24 18:52:57.905  INFO 6544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24 18:52:58.090  INFO 6544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 18:52:58.329  INFO 6544 --- [restartedMain] com.algotrader.App                       : Started App in 3.458 seconds (JVM running for 6.304)
+2025-01-24 20:18:26.187  INFO 10048 --- [restartedMain] com.algotrader.App                       : Starting App using Java 17.0.4.1 on LAPTOP-43GSJ023 with PID 10048 (C:\dev\repo\greedy-crypto-bot\target\classes started by gvald in C:\dev\repo\greedy-crypto-bot)
+2025-01-24 20:18:26.188  INFO 10048 --- [restartedMain] com.algotrader.App                       : No active profile set, falling back to 1 default profile: "default"
+2025-01-24 20:18:26.234  INFO 10048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-01-24 20:18:26.234  INFO 10048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-01-24 20:18:27.298  INFO 10048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-24 20:18:27.310  INFO 10048 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-24 20:18:27.310  INFO 10048 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.80]
+2025-01-24 20:18:27.377  INFO 10048 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-24 20:18:27.377  INFO 10048 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1143 ms
+2025-01-24 20:18:27.457  INFO 10048 --- [restartedMain] c.algotrader.service.ClientOrderService  : >>> *** GRID BOT 2023 *** 
+ Current settings : currentTradePair = BTCUSDT; 
+enterPriceParam + 0.997; 
+exitPriceParam = 1.003; 
+exit level percentage = 0.7%;
+2025-01-24 20:18:28.798  INFO 10048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-01-24 20:18:28.995  INFO 10048 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-24 20:18:29.220  INFO 10048 --- [restartedMain] com.algotrader.App                       : Started App in 3.389 seconds (JVM running for 3.974)
+2025-01-24 20:18:46.712  INFO 10048 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 20:18:50.192  INFO 10048 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 
+2025-01-24 20:18:55.191  INFO 10048 --- [scheduling-1] com.algotrader.service.TradingStrategy   : >>> Waiting till enough data points ... 

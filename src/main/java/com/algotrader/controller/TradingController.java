@@ -1,19 +1,23 @@
 package com.algotrader.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
 import com.algotrader.dto.ClientBalance;
 import com.algotrader.service.PanicStrategyService;
 import com.algotrader.service.TradingStrategy;
 
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
 @RestController
-@RequiredArgsConstructor
 public class TradingController {
 
-    private final TradingStrategy strategy;
-    private final PanicStrategyService panicStrategyService;
+	@Autowired
+    private TradingStrategy strategy;
+	@Autowired
+	private PanicStrategyService panicStrategyService;
 
     @RequestMapping(method = RequestMethod.GET, value = "/balance/asset/{currency}")
     public ResponseEntity<ClientBalance> getCurrentClientBalance(@PathVariable String currency) {

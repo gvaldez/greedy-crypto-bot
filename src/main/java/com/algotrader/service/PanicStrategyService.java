@@ -1,18 +1,20 @@
 package com.algotrader.service;
 
-import lombok.extern.java.Log;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Log
-@Component
+@Service
 public class PanicStrategyService {
 
-    private static final int EXIT_CODE = 1;
+
+    private static final Logger logger = LoggerFactory.getLogger(PanicStrategyService.class);
+
+	private static final int EXIT_CODE = 1;
 
     private int sellCount = 0;
 
@@ -41,7 +43,7 @@ public class PanicStrategyService {
 
     public void initiateAppShutDown() {
 
-        logger.warning(">>> Application shutDown executing ... ");
+        logger.info(">>> Application shutDown executing ... ");
         SpringApplication.exit(context, () -> EXIT_CODE);
     }
 }

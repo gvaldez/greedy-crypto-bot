@@ -1,16 +1,17 @@
 package com.algotrader.cache;
 
-import com.google.common.cache.Cache;
-import com.google.common.cache.CacheBuilder;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.OptionalDouble;
 import java.util.concurrent.TimeUnit;
 
-@Component
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
+
+@Service
 public class BackgroundCache {
 
     @Value("${cache.comfy.level}")

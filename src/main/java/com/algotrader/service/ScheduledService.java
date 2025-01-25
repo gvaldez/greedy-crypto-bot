@@ -10,13 +10,14 @@ public class ScheduledService {
     private final TradingStrategy strategy;
 
     @Autowired
-    public ScheduledService(TradingStrategy strategy) {
+    public ScheduledService(TradingStrategy strategy) 
+    {
         this.strategy = strategy;
     }
 
     @Scheduled(cron = "${cron.expression}")
-    public void scheduled() {
-
+    public void scheduled() 
+    {
         strategy.saveCurrentPrice();
         strategy.execute();
     }

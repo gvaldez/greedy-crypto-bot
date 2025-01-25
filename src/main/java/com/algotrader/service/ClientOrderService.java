@@ -1,5 +1,20 @@
 package com.algotrader.service;
 
+import static com.algotrader.util.Constants.ORDER_CANCELLED_MSG;
+import static com.binance.api.client.domain.account.NewOrder.limitBuy;
+import static com.binance.api.client.domain.account.NewOrder.limitSell;
+import static com.binance.api.client.domain.account.NewOrder.marketBuy;
+import static com.binance.api.client.domain.account.NewOrder.marketSell;
+
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+
 import com.algotrader.dto.ClientBalance;
 import com.algotrader.exception.ApiException;
 import com.algotrader.exception.NoCredentialsException;
@@ -7,25 +22,21 @@ import com.binance.api.client.BinanceApiClientFactory;
 import com.binance.api.client.BinanceApiRestClient;
 import com.binance.api.client.domain.OrderStatus;
 import com.binance.api.client.domain.TimeInForce;
-import com.binance.api.client.domain.account.*;
+import com.binance.api.client.domain.account.AssetBalance;
+import com.binance.api.client.domain.account.NewOrder;
+import com.binance.api.client.domain.account.NewOrderResponse;
+import com.binance.api.client.domain.account.Order;
 import com.binance.api.client.domain.account.request.CancelOrderRequest;
 import com.binance.api.client.domain.account.request.OrderRequest;
 
-import lombok.NonNull;
-import lombok.extern.java.Log;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
-import java.util.List;
-
-import static com.algotrader.util.Constants.*;
-import static com.binance.api.client.domain.account.NewOrder.*;
-
-@Log
-@Component
+@Service
 public class ClientOrderService {
 
+	
+	
+    private static final Logger logger = LoggerFactory.getLogger(ClientOrderService.class);
+
+	
     @Value("${api.key}")
     private String apiKey;
     @Value("${api.secret}")
@@ -65,11 +76,11 @@ public class ClientOrderService {
         try {
             restClient.getAccount();
         } catch (com.binance.api.client.exception.BinanceApiException apiException) {
-            logger.warning("BinanceApiException message: " + apiException.getError().getMsg());
-            logger.warning("Cause: " + apiException.getCause());
+            logger.info("BinanceApiException message: " + apiException.getError().getMsg());
+            logger.info("Cause: " + apiException.getCause());
             throw new ApiException(apiException.getError().getMsg(), apiException.getCause());
         } catch (Exception exception) {
-            logger.warning("Cause: " + exception.getCause());
+            logger.info("Cause: " + exception.getCause());
             throw new RuntimeException("Exception when first api call");
         }
     }
@@ -98,7 +109,7 @@ public class ClientOrderService {
         return createOrder(limitSell(currentTradePair, TimeInForce.GTC, quantity, price));
     }
 
-    public ClientBalance getBalanceForCurrency(@NonNull String currency) {
+    public ClientBalance getBalanceForCurrency( String currency) {
 
         AssetBalance balance = restClient.getAccount().getAssetBalance(currency);
         return new ClientBalance(balance.getAsset(), balance.getFree(), balance.getLocked());
